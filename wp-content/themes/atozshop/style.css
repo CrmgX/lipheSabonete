@@ -1,0 +1,91 @@
+/*
+Theme Name: AtozShop
+Theme URI: https://cozythemes.com/atozshop-ecommerce-wordpress-theme/
+Author: CozyThemes
+Author URI: https://cozythemes.com/
+Description: AtozShop serves as the child theme of FotaWP, inheriting all the features of FotaWP. It has been specifically designed for the ecommerce shop niche and offers block-based full site editing capabilities. Its minimal and clean design allows users to create various types of shopping website, such as beauty and care products store, fashion store, gadget and electronic stores and any kinds of online stores and more. For further information about AtozShop, kindly explore the details available at https://cozythemes.com/atozshop-ecommerce-wordpress-theme/
+Template: fotawp
+Version: 1.0.2
+Requires at least: 5.9
+Tested up to: 6.4
+Requires PHP: 7.0
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: atozhshop
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
+*/
+.wp-block-buttons.fotaagency-buttons-with-icon .wp-block-button__link img {
+  margin-bottom: -8px;
+}
+nav.wp-block-navigation ul li a:hover,
+.wp-block-button.is-style-outline a:hover {
+  color: var(--wp--preset--color--primary) !important;
+}
+.wp-block-group.atozshop-featured-product-image {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}
+.wp-block-group.atozshop-featured-product-image .wp-block-button.wc-block-components-product-button {
+  width: 94%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0 3%;
+  opacity: 0;
+}
+.wp-block-group.atozshop-featured-product-image .wc-block-components-product-image.wc-block-grid__product-image {
+  margin: 0;
+}
+.products-block-post-template.atozshop-featured-products li:hover .wp-block-button.wc-block-components-product-button {
+  opacity: 1;
+  bottom: 10px;
+}
+.wc-block-components-product-sale-badge {
+  background: var(--wp--preset--color--primary) !important;
+  color: #fff !important;
+  border: 0 !important;
+  font-size: 12px !important;
+}
+.wp-block-search__button-only.atozshop-header-search .wp-block-search__button.wp-element-button {
+  padding: 0;
+}
+.wp-block-search__button-only.atozshop-header-search .wp-block-search__button.wp-element-button svg {
+  height: 35px;
+  width: 35px;
+}
+.wp-block-search__button-only.atozshop-header-search .wp-block-search__inside-wrapper {
+  margin: 0;
+}
+.wp-block-search__button-only.atozshop-header-search .wp-block-search__button-behavior-expand .wp-block-search__input:focus {
+  border: 1px solid var(--wp--preset--color--primary) !important;
+}
+.wp-block-button.wc-block-components-product-button .wc-block-components-product-button__button,
+.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+  border-radius: 3px;
+  padding: 10px 15px;
+}
+.atozshop-top-selling .wc-block-grid__products .wc-block-grid__product-image img {
+  width: 100%;
+  height: 400px;
+}
+.atozshop-top-selling .wc-block-grid__products .wc-block-grid__product {
+  border-left-width: 18px;
+  border-right-width: 18px;
+}
+.atozshop-top-selling .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.atozshop-top-selling .wc-block-grid__products .wc-block-grid__product a {
+  color: var(--wp--preset--color--heading-color) !important;
+}
+.atozshop-top-selling .wc-block-grid__products .wc-block-grid__product a:hover {
+  color: var(--wp--preset--color--secondary) !important;
+}
+.entry-content.wp-block-post-content a,
+.wp-block-comment-content a,
+p a {
+  text-decoration: underline;
+}
