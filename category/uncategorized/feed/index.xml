@@ -8,8 +8,8 @@
 	>
 
 <channel>
-	<title>LIPHE Sabonnetes Artesanais</title>
-	<atom:link href="https://crmgx.github.io/lipheSabonete/feed/" rel="self" type="application/rss+xml" />
+	<title>Uncategorized &#8211; LIPHE Sabonnetes Artesanais</title>
+	<atom:link href="https://crmgx.github.io/lipheSabonete/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
 	<link>https://crmgx.github.io/lipheSabonete/</link>
 	<description></description>
 	<lastBuildDate>Sat, 23 Dec 2023 23:29:53 +0000</lastBuildDate>
@@ -22,7 +22,7 @@
 
 <image>
 	<url>https://crmgx.github.io/lipheSabonete/wp-content/uploads/2024/01/Asset-2-100x100.png</url>
-	<title>LIPHE Sabonnetes Artesanais</title>
+	<title>Uncategorized &#8211; LIPHE Sabonnetes Artesanais</title>
 	<link>https://crmgx.github.io/lipheSabonete/</link>
 	<width>32</width>
 	<height>32</height>
